@@ -4,7 +4,7 @@
 -- Load the library one of these ways (edit the line below):
 --   1) from a file:  loadstring(readfile("Lumen/LumenV2Library.lua"))()
 --   2) from a URL:   loadstring(game:HttpGet("https://your.host/LumenV2Library.lua"))()
-local Lumen = loadstring(readfile("Lumen/LumenV2Library.lua"))()
+local Lumen = loadstring(game:HttpGet("https://raw.githubusercontent.com/Dreamyzone/lumen-ui/refs/heads/main/LumenV2Library%20(2).lua"))() 
 
 local Window = Lumen:CreateWindow({
 	Title = "Config Demo",
